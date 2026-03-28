@@ -26,9 +26,9 @@
   pdfauthor={Pierre Courteille}
 }
 
-% Section titles: centered, clear hierarchy, full-width soft rule below
+% Section titles: centered, color only (no bold) + soft rule
 \titleformat{\section}
-  {\centering\large\bfseries\color{cvprimary}}
+  {\centering\large\color{cvprimary}}
   {}
   {0pt}
   {}
@@ -58,16 +58,20 @@
   before={\RaggedRight}
 }
 
+% Job title: colored, slightly larger — not bold (lighter than body bold spam)
 \newcommand{\cvSubheading}[3]{%
   \par\vspace{0.65em}%
-  {\bfseries\color{cvprimary}#1}\par\vspace{0.1em}
+  {\large\color{cvprimary}#1}\par\vspace{0.1em}
   {\small\color{cvmuted}#3 \quad\textbar\quad \textit{#2}}\par
   \vspace{0.3em}
 }
 
 \newcommand{\cvStack}[1]{%
-  \par\noindent{\small\color{cvmuted}\textsf{Stack:}\ #1}\par
+  \par\noindent{\small\color{cvmuted}\textit{Stack:}\ #1}\par
 }
+
+% Bullet lead label: accent color, regular weight (replaces heavy \textbf)
+\newcommand{\cvTopic}[1]{\textcolor{cvprimary}{#1}}
 
 % Sans-serif body
 \IfFontExistsTF{Fira Sans}{\setmainfont{Fira Sans}}{\setmainfont{DejaVu Sans}}
