@@ -1,5 +1,7 @@
 # CV (English) — LaTeX layout
 
+French version: see `../cv-fr-latex/` (same structure, translated `sections/*.tex`).
+
 Structured LaTeX project: `main.tex` loads `preamble.tex` and section files under `sections/`.
 
 ## Requirements
