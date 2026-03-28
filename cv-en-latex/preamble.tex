@@ -1,6 +1,6 @@
 % Shared preamble for English CV (compile with XeLaTeX or LuaLaTeX).
 
-\usepackage[a4paper,margin=1.35cm]{geometry}
+\usepackage[a4paper,margin=1.3cm]{geometry}
 \emergencystretch=2.5em
 \usepackage{xcolor}
 \usepackage{hyperref}
@@ -11,11 +11,11 @@
 \usepackage{microtype}
 \usepackage{ragged2e}
 
-% Palette: calm blue-gray, not harsh on screen/print
-\definecolor{cvprimary}{HTML}{2C5282}
-\definecolor{cvprimarysoft}{HTML}{4A6FA5}
-\definecolor{cvheaderbg}{HTML}{F0F4FA}
-\definecolor{cvruled}{HTML}{C8D4E8}
+% Palette: darker blue for stronger contrast (titles, links, accents)
+\definecolor{cvprimary}{HTML}{153E75}
+\definecolor{cvprimarysoft}{HTML}{1E4976}
+\definecolor{cvheaderbg}{HTML}{E8EEF7}
+\definecolor{cvruled}{HTML}{9BB3D1}
 \definecolor{cvmuted}{HTML}{5A6570}
 
 \hypersetup{
@@ -26,15 +26,15 @@
   pdfauthor={Pierre Courteille}
 }
 
-% Section titles: centered, color only (no bold) + soft rule
+% Section titles: centered, bold, slightly larger + rule below
 \titleformat{\section}
-  {\centering\large\color{cvprimary}}
+  {\centering\Large\bfseries\color{cvprimary}}
   {}
   {0pt}
   {}
-  [\vspace{0.25em}{\color{cvruled}\rule{\linewidth}{0.55pt}}]
+  [\vspace{0.28em}{\color{cvruled}\rule{\linewidth}{0.6pt}}]
 
-\titlespacing*{\section}{0pt}{1.05em plus 0.15em}{0.55em plus 0.08em}
+\titlespacing*{\section}{0pt}{0.85em plus 0.12em}{0.45em plus 0.06em}
 
 % Default lists (profile, certs, education)
 \setlist[itemize]{
@@ -60,14 +60,21 @@
 
 % Job title: colored, slightly larger — not bold (lighter than body bold spam)
 \newcommand{\cvSubheading}[3]{%
-  \par\vspace{0.65em}%
-  {\large\color{cvprimary}#1}\par\vspace{0.1em}
+  \par\vspace{0.45em}%
+  {\large\color{cvprimary}#1}\par\vspace{0.08em}
   {\small\color{cvmuted}#3 \quad\textbar\quad \textit{#2}}\par
-  \vspace{0.3em}
+  \vspace{0.22em}
 }
 
 \newcommand{\cvStack}[1]{%
   \par\noindent{\small\color{cvmuted}\textit{Stack:}\ #1}\par
+}
+
+% Visible break between experience blocks (after each job except you omit after the last)
+\newcommand{\cvJobSeparator}{%
+  \par\vspace{0.55em}
+  {\color{cvruled}\rule{\linewidth}{0.65pt}}%
+  \par\vspace{0.55em}
 }
 
 % Bullet lead label: accent color, regular weight (replaces heavy \textbf)
