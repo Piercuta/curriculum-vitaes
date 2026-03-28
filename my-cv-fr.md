@@ -8,7 +8,7 @@
 📞 (+33) 6 08 04 22 44 | 📧 pierre.courteille@gmail.com | [LinkedIn](https://www.linkedin.com/in/pierre-courteille-b7432b186/) | Genève, Suisse
 
 ## Profil
-- Ingénieur **cloud & DevOps** — **expert AWS (4 certifications)** : **architecture, sécurité et automatisation**. J’accompagne les organisations pour **concevoir, migrer et optimiser** des infrastructures AWS avec une forte exigence sur la **sécurité, la scalabilité et la performance**.
+- Ingénieur **cloud & DevOps** — **expert AWS (4 certifications)** : **architecture, sécurité et automatisation**. J’accompagne les entreprises pour **concevoir, migrer et optimiser** des infrastructures AWS avec une forte exigence sur la **sécurité, la scalabilité et la performance**.
 - Mise en place de **pipelines CI/CD**, **IaC** (CDK, CloudFormation) et d’architectures de plateformes **résilientes**. Cœur de métier AWS : **EKS, EC2, ECS, Lambda, RDS, VPC, CloudFormation, CDK, SAM, IAM**, etc.
 - **8+ ans** d’expérience | **20+ clients** accompagnés | **4 certifications AWS**. Priorités : sécurité, performance, scalabilité, robustesse. Motivé par les projets **complexes** à la croisée du **cloud** et des **mathématiques / de l’optimisation**.
 
@@ -24,7 +24,7 @@
 
 ## Expérience
 
-### Ingénieur cloud — Qim info · Commission électrotechnique internationale (IEC)
+### Cloud Engineer — Qim info · Commission électrotechnique internationale (IEC)
 Oct. 2025 – Présent · Genève, Suisse · Hybride
 
 Conception et exploitation d’environnements **AWS multi-comptes** pour plusieurs applications, avec un fort accent sur la **sécurité, la scalabilité et l’automatisation**.
@@ -39,7 +39,7 @@ Conception et exploitation d’environnements **AWS multi-comptes** pour plusieu
 
 ---
 
-### Ingénieur cloud (freelance) — Premaccess
+### Cloud Engineer (freelance) — Premaccess
 Juin 2019 – Sept. 2025 · Paris, Île-de-France, France · Hybride
 
 Accompagnement de plusieurs clients dans leur **transformation cloud AWS** : de la migration à l’optimisation et la montée en charge, avec une forte orientation **automatisation, sécurité et performance**.
@@ -54,7 +54,7 @@ Accompagnement de plusieurs clients dans leur **transformation cloud AWS** : de 
 
 ---
 
-### Formateur .NET & ingénieur logiciel (freelance) — ISIKA
+### Formateur .NET (freelance) — ISIKA
 Mars 2020 – Avr. 2023 · Paris, Île-de-France, France · Hybride
 
 Formation **C# et .NET** avec un focus sur la **POO** et la conception d’applications.
@@ -67,7 +67,7 @@ Formation **C# et .NET** avec un focus sur la **POO** et la conception d’appli
 
 ---
 
-### Responsable assurance qualité logicielle — Bassetti
+### Quality Manager — Bassetti
 Févr. 2016 – Mai 2018 · Kolkata, Inde · Temps plein
 
 Création et pilotage d’une **organisation QA** en Inde : management d’équipe, **automatisation des tests à grande échelle** et pratiques **DevOps**.
@@ -81,7 +81,7 @@ Création et pilotage d’une **organisation QA** en Inde : management d’équi
 
 ---
 
-### Ingénieur optimisation — Kronos Incorporated (Ad Opt)
+### Optimization Engineer — Kronos Incorporated (Ad Opt)
 Janv. 2015 – Janv. 2016 · Montréal, Canada
 
 **Ad Opt** (Kronos) — optimisation du **planning des équipages aériens** (coûts et efficacité opérationnelle).
