@@ -1,20 +1,11 @@
-<div style="display: flex; justify-content: space-between; align-items: flex-start; gap: 1.25rem; flex-wrap: wrap;">
-
-<div style="flex: 1; min-width: 14rem; text-align: left;">
-
-<h1 style="margin: 0 0 0.35em; font-size: 1.75em; border: none;">Pierre Courteille</h1>
-
-<p style="margin: 0.35em 0;"><strong>Cloud Architect (Freelance)</strong> | AWS · DevOps · CDK · Terraform · SaaS · Multi-Account (AWS Organizations) | <strong>4x AWS Certified</strong></p>
-
-<p style="margin: 0.35em 0;">📞 (+33) 6 08 04 22 44 | 📧 pierre.courteille@gmail.com | <a href="https://www.linkedin.com/in/pierre-courteille-b7432b186/">LinkedIn</a> | Geneva, Switzerland</p>
-
+<div align="center">
+<img src="photo/face_circle.png" alt="Pierre Courteille" width="160" />
+<h1 style="margin: 0.4em 0 0.2em; font-size: 1.75em; border: none;">Pierre Courteille</h1>
 </div>
 
-<div style="flex-shrink: 0;">
-<img src="photo/face_circle.png" alt="Pierre Courteille" width="140" height="140" style="display: block; border-radius: 50%; object-fit: cover;" />
-</div>
+**Cloud Architect (Freelance)** | AWS · DevOps · CDK · Terraform · SaaS · Multi-Account (AWS Organizations) | **4x AWS Certified**
 
-</div>
+📞 (+33) 6 08 04 22 44 | 📧 pierre.courteille@gmail.com | [LinkedIn](https://www.linkedin.com/in/pierre-courteille-b7432b186/) | Geneva, Switzerland
 
 ## Profile
 - Cloud & DevOps engineer — **AWS expert (4x certified)**: **architecture, security, and automation**. I help organizations **design, migrate, and optimize** AWS infrastructure with a strong focus on **security, scalability, and performance**.
