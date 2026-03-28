@@ -1,0 +1,81 @@
+% French CV preamble (XeLaTeX). Same layout as cv-en-latex. UTF-8 source (accents OK).
+% Optional: \usepackage[french]{babel} if your TeX install includes babel-french.
+
+\usepackage[a4paper,margin=1.3cm]{geometry}
+\emergencystretch=2.5em
+\usepackage{xcolor}
+\usepackage{hyperref}
+\usepackage{graphicx}
+\usepackage{enumitem}
+\usepackage{titlesec}
+\usepackage{fontspec}
+\usepackage{microtype}
+\usepackage{ragged2e}
+
+\definecolor{cvprimary}{HTML}{153E75}
+\definecolor{cvprimarysoft}{HTML}{1E4976}
+\definecolor{cvheaderbg}{HTML}{E8EEF7}
+\definecolor{cvruled}{HTML}{9BB3D1}
+\definecolor{cvmuted}{HTML}{5A6570}
+
+\hypersetup{
+  colorlinks=true,
+  linkcolor=cvprimary,
+  urlcolor=cvprimarysoft,
+  pdftitle={Pierre Courteille - CV},
+  pdfauthor={Pierre Courteille}
+}
+
+\titleformat{\section}
+  {\centering\Large\bfseries\color{cvprimary}}
+  {}
+  {0pt}
+  {}
+  [\vspace{0.28em}{\color{cvruled}\rule{\linewidth}{0.6pt}}]
+
+\titlespacing*{\section}{0pt}{0.85em plus 0.12em}{0.45em plus 0.06em}
+
+\setlist[itemize]{
+  noitemsep,
+  topsep=0.35em,
+  itemsep=0.2em,
+  leftmargin=1.2em,
+  label=\textcolor{cvprimary}{\textbullet},
+  before={\RaggedRight}
+}
+
+\newlist{cvitemize}{itemize}{1}
+\setlist[cvitemize]{
+  label=\textcolor{cvprimarysoft}{\small$\triangleright$},
+  leftmargin=1.15em,
+  itemsep=0.22em,
+  topsep=0.25em,
+  parsep=0pt,
+  partopsep=0pt,
+  before={\RaggedRight}
+}
+
+\newcommand{\cvSubheading}[3]{%
+  \par\vspace{0.45em}%
+  {\large\color{cvprimary}#1}\par\vspace{0.08em}
+  {\small\color{cvmuted}#3 \quad\textbar\quad \textit{#2}}\par
+  \vspace{0.22em}
+}
+
+\newcommand{\cvStack}[1]{%
+  \par\noindent{\small\color{cvmuted}\textit{Stack :}\ #1}\par
+}
+
+\newcommand{\cvJobSeparator}{%
+  \par\vspace{0.55em}
+  {\color{cvruled}\rule{\linewidth}{0.65pt}}%
+  \par\vspace{0.55em}
+}
+
+\newcommand{\cvTopic}[1]{\textcolor{cvprimary}{#1}}
+
+\IfFontExistsTF{Fira Sans}{\setmainfont{Fira Sans}}{\setmainfont{DejaVu Sans}}
+
+\pagestyle{empty}
+\setlength{\parindent}{0pt}
+\setlength{\parskip}{0.4em}
