@@ -1,6 +1,6 @@
 # Pierre Courteille
 
-<img src="photo/face_square.png" alt="Pierre Courteille" width="160" />
+<img src="photo/face_circle.png" alt="Pierre Courteille" width="160" />
 
 **Cloud Architect (Freelance)** | AWS · DevOps · CDK · Terraform · SaaS · Multi-Account (AWS Organizations) | **4x AWS Certified**
 
