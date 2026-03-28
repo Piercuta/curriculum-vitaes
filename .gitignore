@@ -1,0 +1,42 @@
+# LaTeX build artifacts
+*.aux
+*.lof
+*.log
+*.lot
+*.fls
+*.out
+*.toc
+*.fmt
+*.fot
+*.cb
+*.cb2
+.*.lb
+*.synctex
+*.synctex(busy)
+*.synctex.gz
+*.synctex.gz(busy)
+*.pdfsync
+*.fdb_latexmk
+*.snm
+*.nav
+*.vrb
+
+# BibTeX / Biber
+*.bbl
+*.bcf
+*.blg
+*-blx.aux
+*-blx.bib
+*.run.xml
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Editor / backup
+*~
+*.swp
+*.swo
+
+# Uncomment to stop tracking generated PDFs (keep only sources)
+# *.pdf
