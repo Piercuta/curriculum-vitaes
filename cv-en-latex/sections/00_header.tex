@@ -1,24 +1,27 @@
-% Header: photo (right) + identity + contact (left).
+% Header: soft band, photo vertically centered with text block
 
-\noindent
-\begin{minipage}[t]{0.72\textwidth}
-  {\LARGE\bfseries Pierre Courteille}\par\vspace{0.25em}
-  {\large\color{cvprimary}\textbf{Cloud Architect (Freelance)}}
-  \par\smallskip
-  {\small
-    AWS \textbullet{} DevOps \textbullet{} CDK \textbullet{} Terraform \textbullet{} SaaS \textbullet{} Multi-Account (Organizations) \textbullet{} \textbf{4$\times$ AWS Certified}
-  }\par\vspace{0.5em}
-  {\normalsize
-    (+33) 6 08 04 22 44 \quad\textbar\quad
-    \href{mailto:pierre.courteille@gmail.com}{pierre.courteille@gmail.com}\par\smallskip
-    \href{https://www.linkedin.com/in/pierre-courteille-b7432b186/}{LinkedIn} \quad\textbar\quad
-    Geneva, Switzerland
-  }
-\end{minipage}%
-\hfill
-\begin{minipage}[t]{0.22\textwidth}
-  \raggedleft
-  \includegraphics[width=2.2cm,height=2.2cm,keepaspectratio]{../photo/face_circle.png}
-\end{minipage}
+\setlength{\fboxsep}{9pt}
+\noindent\colorbox{cvheaderbg}{%
+  \parbox{\dimexpr\linewidth-2\fboxsep}{%
+    \begin{minipage}[c]{0.70\linewidth}
+      {\LARGE\bfseries\color{cvprimary} Pierre Courteille}\par\vspace{0.35em}
+      {\large\color{cvprimarysoft}\textbf{Cloud Architect (Freelance)}}\par\vspace{0.4em}
+      {\small\color{cvmuted}
+        AWS \textbullet{} DevOps \textbullet{} CDK \textbullet{} Terraform \textbullet{} SaaS \textbullet{} Multi-Account (Organizations) \textbullet{} 4$\times$ AWS Certified
+      }\par\vspace{0.55em}
+      {\normalsize
+        (+33) 6 08 04 22 44 \quad\textbar\quad
+        \href{mailto:pierre.courteille@gmail.com}{pierre.courteille@gmail.com}\par\vspace{0.25em}
+        \href{https://www.linkedin.com/in/pierre-courteille-b7432b186/}{LinkedIn} \quad\textbar\quad
+        Geneva, Switzerland
+      }
+    \end{minipage}%
+    \hfill
+    \begin{minipage}[c]{0.22\linewidth}
+      \raggedleft
+      \includegraphics[width=2.35cm,height=2.35cm,keepaspectratio]{../photo/face_circle.png}
+    \end{minipage}%
+  }%
+}
 
-\vspace{0.8em}
+\vspace{0.65em}

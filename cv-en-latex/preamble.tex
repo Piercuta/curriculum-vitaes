@@ -1,7 +1,7 @@
 % Shared preamble for English CV (compile with XeLaTeX or LuaLaTeX).
-% Keep packages minimal and declare macros here (single source of style).
 
-\usepackage[a4paper,margin=1.5cm]{geometry}
+\usepackage[a4paper,margin=1.35cm]{geometry}
+\emergencystretch=2.5em
 \usepackage{xcolor}
 \usepackage{hyperref}
 \usepackage{graphicx}
@@ -11,45 +11,67 @@
 \usepackage{microtype}
 \usepackage{ragged2e}
 
-\definecolor{cvprimary}{HTML}{1F4E79}
-\definecolor{cvmuted}{HTML}{555555}
+% Palette: calm blue-gray, not harsh on screen/print
+\definecolor{cvprimary}{HTML}{2C5282}
+\definecolor{cvprimarysoft}{HTML}{4A6FA5}
+\definecolor{cvheaderbg}{HTML}{F0F4FA}
+\definecolor{cvruled}{HTML}{C8D4E8}
+\definecolor{cvmuted}{HTML}{5A6570}
 
 \hypersetup{
   colorlinks=true,
   linkcolor=cvprimary,
-  urlcolor=cvprimary,
+  urlcolor=cvprimarysoft,
   pdftitle={Pierre Courteille - CV},
   pdfauthor={Pierre Courteille}
 }
 
+% Section titles: clear hierarchy, soft rule
 \titleformat{\section}
   {\large\bfseries\color{cvprimary}}
   {}
   {0pt}
   {}
-  [\titlerule]
+  [\vspace{0.2em}{\color{cvruled}\rule{\linewidth}{0.55pt}}]
 
-\titlespacing*{\section}{0pt}{1.2ex plus .2ex}{0.8ex plus .1ex}
+\titlespacing*{\section}{0pt}{1.05em plus 0.15em}{0.55em plus 0.08em}
 
+% Default lists (profile, certs, education)
 \setlist[itemize]{
   noitemsep,
-  topsep=0.25em,
-  leftmargin=1.25em,
+  topsep=0.35em,
+  itemsep=0.2em,
+  leftmargin=1.2em,
   label=\textcolor{cvprimary}{\textbullet},
   before={\RaggedRight}
 }
 
-\newcommand{\cvSubheading}[3]{%
-  \par\vspace{0.6em}%
-  \textbf{#1}\hfill\textit{\small #2}\\[-0.15em]
-  {\small\color{cvmuted}#3}\par\smallskip
+% Softer bullets for dense experience blocks
+\newlist{cvitemize}{itemize}{1}
+\setlist[cvitemize]{
+  label=\textcolor{cvprimarysoft}{\small$\triangleright$},
+  leftmargin=1.15em,
+  itemsep=0.22em,
+  topsep=0.25em,
+  parsep=0pt,
+  partopsep=0pt,
+  before={\RaggedRight}
 }
 
-\newcommand{\cvStack}[1]{\par\noindent\textbf{Stack:} #1\par}
+\newcommand{\cvSubheading}[3]{%
+  \par\vspace{0.65em}%
+  {\bfseries\color{cvprimary}#1}\par\vspace{0.1em}
+  {\small\color{cvmuted}#3 \quad\textbar\quad \textit{#2}}\par
+  \vspace{0.3em}
+}
 
-% Sans-serif body; fallback if Fira Sans is missing.
+\newcommand{\cvStack}[1]{%
+  \par\noindent{\small\color{cvmuted}\textsf{Stack:}\ #1}\par
+}
+
+% Sans-serif body
 \IfFontExistsTF{Fira Sans}{\setmainfont{Fira Sans}}{\setmainfont{DejaVu Sans}}
 
 \pagestyle{empty}
 \setlength{\parindent}{0pt}
-\setlength{\parskip}{0.35em}
+\setlength{\parskip}{0.4em}
