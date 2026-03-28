@@ -1,6 +1,6 @@
 <div align="center">
 <img src="photo/face_circle.png" alt="Pierre Courteille" width="160" />
-<h1 style="margin: 0.4em 0 0.2em; font-size: 1.75em; border: none;">Pierre Courteille</h1>
+<h1 style="margin: 0.1em 0 0.1em; font-size: 1.75em; border: none;">Pierre Courteille</h1>
 </div>
 
 **Cloud Architect (Freelance)** | AWS · DevOps · CDK · Terraform · SaaS · Multi-Account (AWS Organizations) | **4x AWS Certified**
