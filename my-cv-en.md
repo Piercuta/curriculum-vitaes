@@ -1,3 +1,5 @@
+<div align="center">
+
 # Pierre Courteille
 
 <img src="photo/face_square.png" alt="Pierre Courteille" width="160" />
@@ -6,22 +8,27 @@
 
 📞 (+33) 6 08 04 22 44 | 📧 pierre.courteille@gmail.com | [LinkedIn](https://www.linkedin.com/in/pierre-courteille-b7432b186/) | Geneva, Switzerland
 
-## Profile
+</div>
+
+<h2 align="center">Profile</h2>
+
 - Cloud & DevOps engineer — **AWS expert (4x certified)**: **architecture, security, and automation**. I help organizations **design, migrate, and optimize** AWS infrastructure with a strong focus on **security, scalability, and performance**.
 - **CI/CD** implementation, **IaC** (CDK, CloudFormation), and **resilient** platform architecture. Core AWS: **EKS, EC2, ECS, Lambda, RDS, VPC, CloudFormation, CDK, SAM, IAM**, and related services.
 - **8+ years** of experience | **20+ clients** | **4 AWS certifications**. Priorities: security, performance, scalability, robustness. Motivated by **complex** work at the intersection of **cloud** and **math / optimization**.
 
-## Certifications (AWS)
+<h2 align="center">Certifications (AWS)</h2>
+
 - AWS Certified Developer – Associate (DVA-C02) — issued Jul 2025, expires Jul 2028
 - AWS Certified DevOps Engineer – Professional (DOP-C02) — issued Jul 2025, expires Jul 2028
 - AWS Certified Solutions Architect – Associate (SAA-C03) — issued Jul 2025, expires Jul 2028
 - AWS Certified Cloud Practitioner (CLF-C02) — issued Jun 2025, expires Jul 2028
 
-## Education
+<h2 align="center">Education</h2>
+
 - **Master’s, Mathematics & Computer Science** (Master **MOCA** — modeling, optimization, combinatorics, algorithms) — Université de Montpellier — 2012–2015
 - **Bachelor’s, Mathematics & Computer Science** — Université de Nantes — 2009–2012
 
-## Experience
+<h2 align="center">Experience</h2>
 
 ### Cloud Engineer — Qim info · International Electrotechnical Commission (IEC)
 Oct 2025 – Present · Geneva, Switzerland · Hybrid
