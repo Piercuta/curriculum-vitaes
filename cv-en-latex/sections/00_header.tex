@@ -1,26 +1,21 @@
-% Header: soft band, photo vertically centered with text block
+% Header: centered photo, name, title, keywords, contact (soft band)
 
-\setlength{\fboxsep}{9pt}
+\setlength{\fboxsep}{8pt}
 \noindent\colorbox{cvheaderbg}{%
   \parbox{\dimexpr\linewidth-2\fboxsep}{%
-    \begin{minipage}[c]{0.70\linewidth}
-      {\LARGE\bfseries\color{cvprimary} Pierre Courteille}\par\vspace{0.35em}
-      {\large\color{cvprimarysoft}\textbf{Cloud Architect (Freelance)}}\par\vspace{0.4em}
-      {\small\color{cvmuted}
-        AWS \textbullet{} DevOps \textbullet{} CDK \textbullet{} Terraform \textbullet{} SaaS \textbullet{} Multi-Account (Organizations) \textbullet{} 4$\times$ AWS Certified
-      }\par\vspace{0.55em}
-      {\normalsize
-        (+33) 6 08 04 22 44 \quad\textbar\quad
-        \href{mailto:pierre.courteille@gmail.com}{pierre.courteille@gmail.com}\par\vspace{0.25em}
-        \href{https://www.linkedin.com/in/pierre-courteille-b7432b186/}{LinkedIn} \quad\textbar\quad
-        Geneva, Switzerland
-      }
-    \end{minipage}%
-    \hfill
-    \begin{minipage}[c]{0.22\linewidth}
-      \raggedleft
-      \includegraphics[width=2.35cm,height=2.35cm,keepaspectratio]{../photo/face_circle.png}
-    \end{minipage}%
+    \centering
+    \includegraphics[width=2.25cm,height=2.25cm,keepaspectratio]{../photo/face_circle.png}\par\vspace{0.3em}
+    {\LARGE\bfseries\color{cvprimary} Pierre Courteille}\par\vspace{0.2em}
+    {\large\color{cvprimarysoft}\textbf{Cloud Architect (Freelance)}}\par\vspace{0.25em}
+    {\small\color{cvmuted}
+      AWS \textbullet{} DevOps \textbullet{} CDK \textbullet{} Terraform \textbullet{} SaaS \textbullet{} Multi-Account (Organizations) \textbullet{} 4$\times$ AWS Certified
+    }\par\vspace{0.3em}
+    {\normalsize
+      (+33) 6 08 04 22 44 \quad\textbar\quad
+      \href{mailto:pierre.courteille@gmail.com}{pierre.courteille@gmail.com}\par\vspace{0.2em}
+      \href{https://www.linkedin.com/in/pierre-courteille-b7432b186/}{LinkedIn} \quad\textbar\quad
+      Geneva, Switzerland
+    }
   }%
 }
 
